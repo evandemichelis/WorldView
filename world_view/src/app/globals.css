@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: white;
+}
+
+/* -------- Countrysplay.tsx -------- */
+
+.title{
+  color: black;
+  font-size:large;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.group{
+  padding: 16px;
+  background-color: rgb(211, 211, 211);
+  width: 256px;
+  border-radius: 16px;
+}
+
+/* ------------ [detail] ------------ */
+
+.background{
+  background-color: rgb(211, 211, 211);
+  border-radius: 16px;
+  padding: 16px;
+  margin: 20px;
+  max-width: 100%;
+}
+
+.flagntitle{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flaag{
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.countryname{
+  font-size: 80px;
+  font-weight: 600;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.details{
+  text-align: centers;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.informations{
+  padding-top: 50px;
+  gap: 24px;
+  font-weight: 400;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.infotitle{
+  font-weight: 700;
+  font-size: 20px;
+}
